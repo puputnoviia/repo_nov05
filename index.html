@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: rgb(224, 140, 154);
+        }
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 20px auto;
+            text-align: center;
+        }
+        .movie {
+            display: inline-block;
+            background-color:pink;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            vertical-align: top;
+            text-align: center;
+        }
+        .movie img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .movie h3 {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .movie p {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #555;
+        }
+        #movieList {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        input, button {
+            padding: 20px;
+            font-size: 16px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: pink;
+            color: grey;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>୨ৎSearch Movies By Puputtttttt hehehe˚˖𓍢ִ໋🦢˚</h1>
+        <p>🌸🎀🦩💕🌷</p>
+        <input id="movieInput" type="text" placeholder="ketik judul disini yaw •ᴗ•">
+        <button onclick="searchMovie()">cari</button>
+        <p>▶︎ •၊၊||၊|။||||| 0:10</p>
+    </div>
+
+    
+    <div id="movieList" id="movieList"></div>
+    
+    <script src="script.js"></script>
+
+    <script>
+        function cariAja(){
+            const ket = document.getElementById("keterangan")
+            ket.innerHTML = "Pencarian Movies Dimulai"
+        }
+    </script>
+
+
+    
+</body>
+</html>
